@@ -1,0 +1,45 @@
+
+<form id="929390102">
+<property name="subject" value=""/>
+<property name="name" value="policyquote.policyquoteprocess-taskform.form"/>
+<property name="displayMode" value="default"/>
+<property name="status" value="0"/>
+<field position="0" name="driver_age" type="InputTextInteger" id="1639748802">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;age (driver)quot;"/>
+<property name="inputBinding" value=""/>
+<property name="outputBinding" value="driver/age"/>
+<property name="fieldClass" value="java.lang.Integer"/>
+</field>
+<field position="1" name="driver_driverName" type="InputText" id="2034706865">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;driverName (driver)quot;"/>
+<property name="inputBinding" value=""/>
+<property name="outputBinding" value="driver/driverName"/>
+<property name="fieldClass" value="java.lang.String"/>
+</field>
+<field position="2" name="driver_numberOfAccidents" type="InputTextInteger" id="1129976465">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;numberOfAccidents (driver)quot;"/>
+<property name="inputBinding" value=""/>
+<property name="outputBinding" value="driver/numberOfAccidents"/>
+<property name="fieldClass" value="java.lang.Integer"/>
+</field>
+<field position="3" name="driver_numberOfTickets" type="InputTextInteger" id="2079412610">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;numberOfTickets (driver)quot;"/>
+<property name="inputBinding" value=""/>
+<property name="outputBinding" value="driver/numberOfTickets"/>
+<property name="fieldClass" value="java.lang.Integer"/>
+</field>
+<field position="4" name="policy_vehicleYear" type="InputTextInteger" id="2037654439">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;vehicleYear (policy)quot;"/>
+<property name="inputBinding" value=""/>
+<property name="outputBinding" value="policy/vehicleYear"/>
+<property name="fieldClass" value="java.lang.Integer"/>
+</field>
+<dataHolder inputId="" name="#0000A0" type="dataModelerEntry" outId="driver" value="org.acme.insurance.Driver" id="driver"/>
+<dataHolder inputId="" name="#FF54A7" type="dataModelerEntry" outId="policy" value="org.acme.insurance.Policy" id="policy"/>
+<dataHolder inputId="" name="#A7E690" type="basicType" outId="price" value="java.lang.Integer" id="price"/>
+</form>

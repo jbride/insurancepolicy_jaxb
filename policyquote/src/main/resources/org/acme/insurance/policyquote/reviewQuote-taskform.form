@@ -1,0 +1,88 @@
+
+<form id="638055113">
+<property name="subject" value=""/>
+<property name="name" value="reviewQuote-taskform.form"/>
+<property name="displayMode" value="default"/>
+<property name="status" value="0"/>
+<field position="0" name="driver_age" type="InputTextInteger" id="1416974152">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;age (driver)quot;"/>
+<property name="inputBinding" value="driverin/age"/>
+<property name="outputBinding" value=""/>
+<property name="fieldClass" value="java.lang.Integer"/>
+</field>
+<field position="1" name="driver_driverName" type="InputText" id="448394339">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;driverName (driver)quot;"/>
+<property name="inputBinding" value="driverin/driverName"/>
+<property name="outputBinding" value=""/>
+<property name="fieldClass" value="java.lang.String"/>
+</field>
+<field position="2" name="driver_numberOfAccidents" type="InputTextInteger" id="808924941">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;numberOfAccidents (driver)quot;"/>
+<property name="inputBinding" value="driverin/numberOfAccidents"/>
+<property name="outputBinding" value=""/>
+<property name="fieldClass" value="java.lang.Integer"/>
+</field>
+<field position="3" name="driver_numberOfTickets" type="InputTextInteger" id="645337843">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;numberOfTickets (driver)quot;"/>
+<property name="inputBinding" value="driverin/numberOfTickets"/>
+<property name="outputBinding" value=""/>
+<property name="fieldClass" value="java.lang.Integer"/>
+</field>
+<field position="4" name="driver_ssn" type="InputTextInteger" id="2147426960">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;ssn (driver)quot;"/>
+<property name="inputBinding" value="driverin/ssn"/>
+<property name="outputBinding" value=""/>
+<property name="fieldClass" value="java.lang.Integer"/>
+</field>
+<field position="5" name="policy_price" type="InputTextInteger" id="1066565219">
+<property name="fieldRequired" value="false"/>
+<property name="labelCSSClass" value=""/>
+<property name="labelCSSStyle" value=""/>
+<property name="label" value="quot;SSClassquot;,quot;quot;quot;SSStylequot;,quot;quot;quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;price (policy)quot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
+<property name="errorMessage" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;quot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
+<property name="title" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;quot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
+<property name="readonly" value="true"/>
+<property name="size" value=""/>
+<property name="formula" value=""/>
+<property name="rangeFormula" value=""/>
+<property name="styleclass" value=""/>
+<property name="cssStyle" value=""/>
+<property name="defaultValueFormula" value=""/>
+<property name="inputBinding" value="policyin/price"/>
+<property name="outputBinding" value="policyOut/price"/>
+<property name="fieldClass" value="java.lang.Integer"/>
+</field>
+<field position="6" name="policy_vehicleYear" type="InputTextInteger" id="736485833">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;vehicleYear (policy)quot;"/>
+<property name="inputBinding" value="policyin/vehicleYear"/>
+<property name="outputBinding" value="policyOut/vehicleYear"/>
+<property name="fieldClass" value="java.lang.Integer"/>
+</field>
+<field position="7" name="taskPriceIn" type="InputTextInteger" id="73021999">
+<property name="fieldRequired" value="false"/>
+<property name="labelCSSClass" value=""/>
+<property name="labelCSSStyle" value=""/>
+<property name="label" value="quot;SSClassquot;,quot;quot;quot;SSStylequot;,quot;quot;quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;New Pricequot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
+<property name="errorMessage" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;quot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
+<property name="title" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;quot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
+<property name="readonly" value="false"/>
+<property name="size" value=""/>
+<property name="formula" value=""/>
+<property name="rangeFormula" value=""/>
+<property name="styleclass" value=""/>
+<property name="cssStyle" value=""/>
+<property name="defaultValueFormula" value=""/>
+<property name="inputBinding" value="taskPriceIn"/>
+<property name="outputBinding" value="taskPriceOut"/>
+<property name="fieldClass" value="java.lang.Integer"/>
+</field>
+<dataHolder inputId="driverin" name="#0000A0" type="dataModelerEntry" outId="" value="org.acme.insurance.Driver" id="driver"/>
+<dataHolder inputId="policyin" name="#FF54A7" type="dataModelerEntry" outId="policyOut" value="org.acme.insurance.Policy" id="policy"/>
+<dataHolder inputId="taskPriceIn" name="#A7E690" type="basicType" outId="taskPriceOut" value="java.lang.Integer" id="price"/>
+</form>
